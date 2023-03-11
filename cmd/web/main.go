@@ -7,9 +7,9 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/moyu/bookings/pkg/config"
-	"github.com/moyu/bookings/pkg/handlers"
-	"github.com/moyu/bookings/pkg/render"
+	"github.com/moyu/bookings/internal/config"
+	"github.com/moyu/bookings/internal/handlers"
+	"github.com/moyu/bookings/internal/render"
 )
 
 const portNumber = ":8080"
