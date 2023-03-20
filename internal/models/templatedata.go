@@ -1,5 +1,7 @@
 package models
 
+import "github.com/moyu/bookings/internal/forms"
+
 //this file will never import other files, only being imported by others
 
 // to store data that sent from handlers to templates, we do not know the type so need a struct
@@ -12,4 +14,5 @@ type TemplateData struct {
 	Flash     string                 // a flash message
 	Warning   string
 	Error     string
+	Form      *forms.Form
 }
